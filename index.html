@@ -7,43 +7,48 @@
 
         <!-- Top Bar -->
         <header>
-            <div class="container">
-                <img src="images/logo.png" alt="Instagram logo">
-                <img src="images/user-avatar.png" alt="Your profile avatar">
+            <div class="container header-container">
+                <img class="insta-logo" src="images/logo.png" alt="Instagram logo">
+                <img class="user-avatar" src="images/user-avatar.png" alt="Your profile avatar">
             </div>
         </header>
 
         <!-- Single Post -->
         <article>
+
+            <!-- Post header -->
             <header>
-                <img src="images/avatar-vangogh.jpg" alt="User avatar">
-                <div>
-                    <h2>User Name</h2>
-                    <p>Location </p>
+                <div class="container post-header-container">
+                    <img class="user-avatar" src="images/avatar-vangogh.jpg" alt="User avatar">
+                    <div>
+                        <p>User Name</p>
+                        <p>Location </p>
+                    </div>
                 </div>
             </header>
             
             <!-- Main post image -->
             <figure>
-                <img src="images/post-vangogh.jpg">
+                    <img class="post-image" src="images/post-vangogh.jpg">
             </figure>
 
             <!-- Action buttons -->
             <nav>
-                <div>
-                <button>Like</button>
-                <button>Comment</button>
-                <button>Share</button>
+                <div class="container">
+                <button><img class="icon-logo" src="images/icon-heart.png"></button>
+                <button><img class="icon-logo" src="images/icon-comment.png"></button>
+                <button><img class="icon-logo" src="images/icon-dm.png"></button>
                 </div>
             </nav>
 
             <!-- Likes and comment -->
             <footer>
-                <p><strong>1,000</strong> likes</p>
-                <p><strong>User Name</strong> Beautiful evening 🌅</p>
-                <p><strong>AnotherUser</strong> Nice shot!</p>
+                <div class="container">
+                    <p><strong>1,000</strong> likes</p>
+                    <p><strong>User Name</strong> Beautiful evening 🌅</p>
+                    <p><strong>AnotherUser</strong> Nice shot!</p>
+                </div>
             </footer>
         </article>
-        
     </body>
 </html>
