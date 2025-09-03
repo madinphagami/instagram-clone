@@ -3,10 +3,14 @@ html, body {
     padding: 0;
 }
 
+article {
+    width: 900px;
+    margin: 0 auto;
+}
+
 /* containers */
 .container {
     padding: 10px 20px;
-    background: ;
 }
 
 .header-container{
@@ -22,6 +26,11 @@ html, body {
     align-items: center;
 }
 
+.poster-info{
+    padding: 5px;
+    margin: 0 10px;
+}
+
 /* images */
 .insta-logo{
     height: 100px;
@@ -32,7 +41,6 @@ html, body {
     height: 50px;
     border-radius: 50%;
 }
-
 
 .post-image {
     width: 100%;
@@ -55,5 +63,4 @@ button {
 
 button:hover, button:active {
     transform: scale(1.05);      /* slightly enlarges */
-    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
 }
